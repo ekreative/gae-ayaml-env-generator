@@ -50,7 +50,7 @@ In your CI / CD process run `gae-yaml-env` to emit a populated app.yaml file, ma
 Example for GitLab
 
 ```yaml
-generate:
+generate_app_yaml:
   image: node:12
   script:
   - npx gae-yaml-env > app.yaml
@@ -61,9 +61,9 @@ generate:
       - master
 
 deploy:
-  image: gcloud
+  image: gcr.io/google.com/cloudsdktool/cloud-sdk:alpine
   dependencies:
-    - generate
+    - generate_app_yaml
   script:
     - gcloud auth activate-service-account --key-file $GCLOUD_KEY
     - gcloud --quiet --project $GCLOUD_PROJECT_ID app deploy app.yaml
