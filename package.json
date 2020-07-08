@@ -1,7 +1,7 @@
 {
   "name": "gae-yaml-env",
   "description": "Generates an app.yaml file from a template and environment variables",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Fred Cox",
   "bin": {
     "gae-yaml-env": "./lib/index.js"
