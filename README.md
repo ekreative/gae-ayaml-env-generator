@@ -4,7 +4,7 @@ Generates an app.yaml file from a template and environment variables, designed f
 
 [![Version](https://img.shields.io/npm/v/gae-yaml-env.svg)](https://npmjs.org/package/gae-yaml-env)
 [![Downloads/week](https://img.shields.io/npm/dw/gae-yaml-env.svg)](https://npmjs.org/package/gae-yaml-env)
-[![License](https://img.shields.io/npm/l/gae-yaml-env.svg)](https://github.com/code/gae-yaml-env/blob/master/package.json)
+[![License](https://img.shields.io/npm/l/gae-yaml-env.svg)](https://github.com/ekreative/gae-yaml-env/blob/master/package.json)
 
 # Usage
 
