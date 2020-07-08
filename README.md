@@ -51,7 +51,7 @@ Example for GitLab
 
 ```yaml
 generate_app_yaml:
-  image: node:12
+  image: node:14-alpine
   script:
   - npx gae-yaml-env > app.yaml
   artifacts:
