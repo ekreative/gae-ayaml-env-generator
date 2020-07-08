@@ -1,3 +1,12 @@
 language: node_js
 node_js:
-  - 12
+- 14
+deploy:
+  provider: npm
+  email: mcfedr@gmail.com
+  api_key:
+    secure: Yyj4vkB7QIXXhZgOl4FykecaAtKyrGD0oObHJ9PK0xB8qDtzjJh17tzmgQWBHPCoKR1Jk39MeRDnIWQbn7psMS0CHbK3ghOERJ5tDOQoI0ZQtFmoZWqPJ3VLE48Usak2NktxAzxdLhrEqCBuPthZjWXk1aD/FMVsBWZ/WMSSer4Vtd4oG2qWtHGPYv26hDN92gqYYpxIoGP2UE31AUy4S4rTnQ07i3hh/kmZddnCSSS8XFTto12MGp/ANySYxsKM7gKgTaETb0M7uVmg2/dzswr2JECAGI5j0ukBP+oajgKtkw9bSGEHmojUj0HFGCUlD3PjsQt3l3CLehwns22uv0bIydx/YoSNm/YSq2F4QqKdI7nvXUfGXQYVDS+v/54pghVrjCi3Zeu9ZS4o0uTc4+BaZz3qBtLooSIGOAej8xJyybCThS1wIigkzXwYRBwe5aQXXwe17c+ygwIu4DfT9A8y1qYLD2s1KcwlC76x/6ukvFNaNu7UsnA8W09MOBXoBC4Cx7wcd9Mntl7yKsHf/E388kVF9IyIcE2Gr1yZUubdOs2GzN0P+9Cym3Mnu8ekPjztcU0MQFDD0CwoPa1MTSeWrdglyuOopMIk85RoPC6eD7A9Uo1p/vKPw+jCFa0+6n/ikA99mE7pA78lNB1LczUxtkzIskX9PKGuqsLeSgA=
+  on:
+    tags: true
+    repo: ekreative/gae-yaml-env
+  skip_cleanup: false
