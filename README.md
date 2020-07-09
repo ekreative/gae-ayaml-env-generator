@@ -19,6 +19,7 @@ Positionals:
 
 Options:
   --prefix   Environment variable prefix, defaults to APP_     [default: "APP_"]
+  --service  Change the service name in the yaml
   --version  Show version number                                       [boolean]
   --help     Show help                                                 [boolean]
 ```

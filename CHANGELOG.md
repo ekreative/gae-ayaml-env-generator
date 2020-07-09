@@ -1,5 +1,9 @@
 # Changelog
 
+### 1.1.0
+
+- Add --service to change service name
+
 ### 1.0.2
 
 - Add a changelog
